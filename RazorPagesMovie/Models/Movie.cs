@@ -17,7 +17,7 @@ namespace RazorPagesMovie.Models
 
         [Display(Name = "Release Date")]
         [DataType(DataType.Date)]
-        [Range(typeof(DateTime), "1/1/1966", "1/1/2020")]
+        //[Range(typeof(DateTime), "1/1/1966", "1/1/2020")]
         //[Display(Name = "Release Date"), DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
 
